@@ -1,0 +1,379 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')no-repeat center center/cover;
+
+}
+
+.head{
+    margin-left:10%;
+    margin-right:10%;
+    background-color: white;
+    
+
+}
+
+.title{
+    padding:50px;
+    text-align: center;
+}
+.title h1{
+    font-size: 70px;
+}
+.title h4{
+    color:goldenrod;
+}
+.images{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+    margin-right:30px;
+    margin-left:30px;
+}
+.images img{
+    width:100%;
+    height:200%;
+}
+.images img:hover{
+    cursor:pointer;
+    opacity:.6;
+}
+.philosophy{
+    margin-top:25%;
+}
+.content{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    margin-right:30px;
+    margin-left:30px;
+}
+.blog{
+    margin-right:30px;
+    margin-left:30px;
+}
+.name{
+    
+    text-align: center;
+    padding:30px;
+    font-size: 25px;
+    font-family: 'Lora', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    margin-bottom:50px;
+    margin-right:30px;
+    margin-left:30px;
+  
+
+  
+}
+
+.blogeers{
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap:30px;
+}
+.heading{
+       
+    padding-top:40px;
+    text-align: center;
+    padding-bottom:40px;
+}
+.heading h4{
+    border-style:groove;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.heading h4:hover{
+    opacity:.8;
+    cursor:pointer;
+}
+.heading h6{
+    font-size: 20px;
+    padding-top:80px;
+}
+.con1 img{
+    width:100%;
+}
+.con1 img:hover{
+    cursor:pointer;
+    opacity:.8;
+}
+
+.con1 h1{
+    padding-top:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* opacity:0; */
+    
+}
+.con1 h1:hover{
+    cursor:pointer;
+    opacity:.8;
+}
+.subscribe{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap:0px;
+    margin-top:80px;
+  
+   border:1px solid grey;
+}
+.content2 img{
+    width:100%;
+    height:80%;
+}
+.content3 {
+    background-color: #4682B4;
+    
+    
+}
+.content3 h2{
+    width:70%;
+  margin-top:60px;
+    border-top:2px solid grey;
+    padding-top:20px;
+    border-bottom:2px solid grey;
+    padding-bottom:20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 25px;
+  
+    margin-left:50px;
+    
+}
+.content3 p{
+    padding-left:50px;
+    padding-top:40px;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+.content3 button{
+    margin-left: 50px;
+    margin-top:50px;
+    width:30%;
+    padding:20px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.content3 button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.articles
+{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+   
+}
+.art img{
+    width:80%;
+}
+.article-1{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom:100px;
+    width:100%;
+    
+}
+.icon{
+    display:grid;
+    grid-template-columns: repeat(2 , 1fr);
+    width:100%;
+    grid-gap:150px;
+}
+.icon h6{
+    font-size:15px;
+}
+.icon i{
+    font-size:15px;
+    background-color:white;
+}
+.journal{
+    margin-right:30px;
+    margin-left:30px;
+}
+.journey{
+    padding:70px;
+    text-align: center;
+}
+.journey h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 50px;
+    padding-bottom:30px;
+}
+.journey h4{
+    
+    
+    font-size: 20px;
+}
+.art{
+    width:100%;
+}
+.art h1{
+    padding-top:20px;
+}
+.art h1:hover{
+    cursor: pointer;
+
+    opacity:.8;
+}
+.art h2{
+    font-size: 15px;
+    margin-bottom:20px;
+}
+.art p{
+    padding-bottom: 20px;
+}
+.art a{
+   
+    text-decoration: none;
+    color:black;
+}
+
+/* footer-top */
+.container-9{
+    margin-top:100px;
+    margin-bottom:90px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+   width:200%;
+}
+.sections-1{
+    width:35%;
+    height:100%;
+    background: url('https://envirokamkar.com/wp-content/plugins/elementor/assets/images/placeholder.png');
+}
+.sections h1{
+    width:85%;
+    font-size: 30px;
+    border-top: 2px solid grey;
+    margin-top:20px;
+    margin-left:15px;
+    padding:10px;
+    border-bottom:2px solid grey;
+}
+.sections p{
+    padding:20px;
+    font-size: 20px;
+   
+}
+.sections-1 button{
+    padding:15px;
+    width:35%;
+    background-color: transparent;
+    font-size: 15px;
+    margin:20px;
+    font-weight: bold;
+}
+.sections-1  button:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+  
+}
+.sections-2{
+    width:35%;
+    height:100%;
+    background-color: white;
+}
+.sections-3{
+    width:30%;
+    height:100%;
+    background: url('https://envirokamkar.com/wp-content/plugins/elementor/assets/images/placeholder.png');
+}
+.sections-2 input[type=text]{
+    padding:15px;
+    width:50%;
+    font-size: 15px;
+    margin-left:15px;
+}
+.sections-2 button{
+    padding:15px;
+    font-size:15px;
+    width:20%;
+    font-weight: 600px;
+}
+.sections-2 button:hover{
+    cursor:pointer;
+    background-color: grey;
+    color:white;
+}
+.sections-3 button{
+    padding:15px;
+    width:35%;
+    background-color: transparent;
+    font-size: 15px;
+    margin:20px;
+    font-weight: bold;
+}
+.sections-3  button:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+  
+}
+
+
+@media(max-width:500px){
+    .images{
+        display:grid;
+        grid-template-columns: 1fr;
+
+    }
+.images img{
+    width:100%;
+    height:100%;
+}
+.content{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.blogeers{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.subscribe{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr;;
+}
+.articles{
+    
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+.article-1{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.art p{
+    width:80%;
+}
+.container-9{
+  width:300%;
+   display:grid;
+   grid-template-columns: 1fr;
+}
+.content3 button{
+    padding:10px;
+    width:40%;
+    margin-bottom:30px;
+}
+.sections-2 button{
+  width:30%;
+}
+.sections-3{
+    margin-top:30px;
+}
+.sections-3 button{
+    width:50%;
+}
+}
